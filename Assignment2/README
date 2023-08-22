@@ -1,1 +1,7 @@
+This is an assignment testing my ability to create and manage network problems and algorithms.
 
+Here, I recreated the Wellington's Transport network by creating a graph from the given data.
+
+I then was tested on my ability to find paths between points with an A* search.
+
+I also implemented the ability to identify articulation points and components using various algorithms.
