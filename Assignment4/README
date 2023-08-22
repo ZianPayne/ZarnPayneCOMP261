@@ -1,1 +1,5 @@
+This was an assignment mainly revolving around the idea of compression and string search algorithms.
 
+Here, I implemented Lempel Ziv as well as Huffman encoding for my compression.
+
+I also demonstrated my ability to develop Boyer-Moore as well as Knuth Morris Pratt String Searches.
