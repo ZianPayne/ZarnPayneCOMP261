@@ -1,1 +1,22 @@
 
+This is an assignment that tested my ability to handle flow network problems. 
+This allowed me to handle flows, edges as well as page rank of directed graphs.
+
+
+More detailed report about assignment and my additional contributions:
+
+Here, my Edmond Karp Implementation contains several new methods:
+	- ReturnPathBottleneck:      Finds the backpointers of the next shortest path as well as its bottleneck value
+	- UpdateFlows:  	 	     Finds the path and updates all the flows of the relevant edges
+
+
+My PageRank uses some methods as well:
+	- HandleSinks: 		     Takes the sinks identified earlier in the initialisation and distributes pageRank evenly.
+	- HandleEdgeContribution:    Takes the contribution of pageRank through an edge and adds it into the cumulative pageRank of an edge.
+	- FindPrintInfluentialEdges: Finds the most influential in-edges for a node and prints them along with their total contribuion.
+
+Quick Notes on Challenge:
+	- Operates on the idea of examining aggregate pageRanks travelling through the edges. 
+	- Measures the edges influence based on the distribution of pageRank scores.
+	- After doing some research, this would not be feasible in a real network. This is more of a post-processing approach as it requires
+	  the aggregate pageRank to be calculated.
